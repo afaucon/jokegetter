@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 # ------------------------------------------------------------------------------
 
-package_name = "templated_package"
+package_name = "jokegetter"
 
 install_requires = [
     'requests>=2.22.0',
@@ -31,7 +31,7 @@ setup(
     author_email=about['__author_email__'],
     url=about['__url__'],
     license=about['__license__'],
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     long_description=readme,
     long_description_content_type='text/markdown',
     python_requires=python_requires,
