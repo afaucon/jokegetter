@@ -7,3 +7,7 @@ def get_joke():
         return jokeobject["joke"]
     else:
         return "- " + jokeobject["setup"] + '\n' + '- ' + jokeobject["delivery"]
+
+if __name__ == '__main__':
+    joke = get_joke()
+    print(joke)
