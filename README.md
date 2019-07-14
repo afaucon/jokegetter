@@ -1,4 +1,4 @@
-# Joke getter
+# Jokegetter
 
 This python package allows to get a joke. It uses [JokeAPI](https://sv443.net/jokeapi).
 
